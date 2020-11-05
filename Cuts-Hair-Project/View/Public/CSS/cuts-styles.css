@@ -4,12 +4,12 @@ body{
 
 @font-face {
     font-family: SS;
-    src: url(./segoesc.ttf);
+    src: url("../segoe-script.ttf");
     font-weight: bold;
   }
 
 .index-page {
-    background-image: url('./CutsHairImages/BackgroundImage.jpg');
+    background-image: url('../Images/Cuts-Hair-Images/background-image.jpg');
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 15% 1fr 1fr 15%;
