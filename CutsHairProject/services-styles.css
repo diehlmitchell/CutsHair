@@ -1,0 +1,38 @@
+.service-page{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% 1fr 15%;
+}
+
+@font-face {
+    font-family: SS;
+    src: url(./segoesc.ttf);
+    font-weight: bold;
+  }
+
+.middle-page{
+    grid-row: 2;
+    grid-template-columns: 15% 1fr 15%;
+    grid-template-rows: 20% 1fr;
+}
+
+.message{
+    border-top: solid gray 3px;
+    grid-row: 1;
+    grid-column: 2;
+    border-left: solid gray 10px;
+}
+
+.message > h1{
+    font-size: 100px;
+    font-family: SS;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+
+
+
+
+
