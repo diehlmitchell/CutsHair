@@ -4,7 +4,7 @@
 ?>
 
 <div class="mission-statement-grid"><!-- Mission statement -->
-    <h1 style="font-size: 90px;">Coming soon at your favorite place to cut your hair!</h1>
+    <h1 style="font-size: 90px;"> making appointments <br> is coming soon at your favorite place to cut your hair!</h1>
     </div>
 
     <div style="margin: 0px;" class="navigation"><!-- Navigation section -->
@@ -31,6 +31,7 @@
 <?php
     include "./View/footer.php";
 ?>
+
 </body>
 </html> 
 
