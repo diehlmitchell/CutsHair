@@ -1,6 +1,6 @@
 <div class = "navbar-grid">
     <img src="./View/Public/Images/Cuts-Hair-Images/hair-cuts.jpg">
-    <h1 style="margin-top: 20px;"><a style ="color: black; text-decoration: none; margin-bottom:0px; margin-top: 20px;"href='../Index.html'>Cuts Hair</a></h1>
+    <h1 style="margin-top: 20px;"><a style ="color: black; text-decoration: none; margin-bottom:0px; margin-top: 20px;"href='./index.php'>Cuts Hair</a></h1>
     <p> </p>
 
         <div class="navbar-right"><!-- Right on the nav bar -->
