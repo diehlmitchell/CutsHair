@@ -26,6 +26,8 @@ body{
     background-color: white;
     margin: 0px;
     position: sticky;
+    border-bottom: solid gray 3px;
+
 }
 .navbar-right{
     display: grid;

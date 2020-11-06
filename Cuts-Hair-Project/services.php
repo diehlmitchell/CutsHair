@@ -20,44 +20,41 @@
             <center>
                 <div class = "service-wrap">
                         <!-- ROW 1 -->
-                    <div class = "service-card">
-                        <div class="frame" style="background-image: url('./View/Public/Images/Cuts-Hair-Images/women-haircut.jpg');"></div>
+                    <a href="./appointments.php"><div class = "service-card">
+                    <div class="frame" style="background-image: url('./View/Public/Images/Cuts-Hair-Images/women-haircut.jpg');"></div>
                         <p>womans haircut</p>
-                    </div>
-                    <div class = "service-card">
+                    </div></a>
+                    <a href="./appointments.php"><div class = "service-card">
                     <div class="frame" style="background-image: url('./View/Public/Images/Cuts-Hair-Images/man-haircut.jpg');"></div>
                         <p>mens haircut</p>
-                    </div>  
+                    </div></a>
                         <!-- ROW 2 -->
-                    <div class = "service-card">
-                    <div class="frame" style="background-image: url('./View/Public/Images/Cuts-Hair-Images/child-haircut.jpg');"></div>
+                    <a href="./appointments.php"><div class = "service-card">
+                        <div class="frame" style="background-image: url('./View/Public/Images/Cuts-Hair-Images/child-haircut.jpg');"></div>
                         <p>Childs haircut</p>
-                    </div>
-                    <div class = "service-card">
-                    <div class="frame" style="background-image: url('./View/Public/Images/Cuts-Hair-Images/coloring.png');"></div>
+                    </div></a>
+                    <a href="./appointments.php"><div class = "service-card">
+                        <div class="frame" style="background-image: url('./View/Public/Images/Cuts-Hair-Images/coloring.png');"></div>
                         <p>hair coloring</p>
-                    </div>
+                    </div></a>
                         <!-- ROW 3 -->
-                    <div class = "service-card">
+                    <a href="./appointments.php"><div class = "service-card">
                     <div class="frame" style="background-image: url('./View/Public/Images/Cuts-Hair-Images/salon-wash.jpg');"></div>
                         <p>wash and dry</p>
-                    </div>
-                    <div class = "service-card">
-                    <div class="frame" style="background-image: url('./View/Public/Images/Cuts-Hair-Images/styling.jpg');"></div>
+                    </div></a>
+                    <a href="./appointments.php"><div class = "service-card">
+                        <div class="frame" style="background-image: url('./View/Public/Images/Cuts-Hair-Images/styling.jpg');"></div>
                         <p>Hair styling</p>
-                    </div>
+                    </div></a>
                         <!-- ROW 4 -->
-                        <div class = "service-card">
-                    <div class="frame" style="background-image: url('./View/Public/Images/Cuts-Hair-Images/perm.jpg');"></div>
+                        <a href="./appointments.php"><div class = "service-card">
+                        <div class="frame" style="background-image: url('./View/Public/Images/Cuts-Hair-Images/perm.jpg');"></div>
                         <p>perms</p>
-                    </div>
-                    <div class = "service-card">
-                    <div class="frame" style="background-image: url('./View/Public/Images/Cuts-Hair-Images/beard-trim.jpg');"></div>
+                    </div></a>
+                    <a href="./appointments.php"><div class = "service-card">
+                        <div class="frame" style="background-image: url('./View/Public/Images/Cuts-Hair-Images/beard-trim.jpg');"></div>
                         <p>facial work</p>
-                    </div>      
-                        
-                    
-
+                    </div></a>      
                     
                     </div>
                  </div><!-- service wrap end tag -->
