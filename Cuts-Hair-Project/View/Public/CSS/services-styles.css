@@ -70,6 +70,8 @@
     font-size: 50px;
     border-top:solid gray 3px;
     margin: 0px ;
+    color: black;
+    font-family: SS;
 }
 
 .service-wrap > a{
@@ -80,6 +82,16 @@
     text-align: center;
 }
 
-
+.employee-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 75%;
+    margin:20px;
+    text-align: center;
+}
 
 

@@ -1,18 +1,10 @@
-    <!-- header -->
-    <?php
-        include "./View/header.php"
-    ?>
-    <!-- header -->
+<?php
+    include "./View/header.php";
+    include "./View/navbar.php";
+?>
 
-    <!--Navigation Bar-->
-    <?php
-        include "./View/navbar.php"
-    ?>
-    <!--Navigation Bar-->
-    
-    <div class="mission-statement-grid"><!-- Mission statement -->
-    <h1 style="font-size: 90px;">Haircuts and services<br> at a reasonable price
-        with innovate customer service</h1>
+<div class="mission-statement-grid"><!-- Mission statement -->
+    <h1 style="font-size: 90px;">Coming soon at your favorite place to cut your hair!</h1>
     </div>
 
     <div style="margin: 0px;" class="navigation"><!-- Navigation section -->
@@ -36,8 +28,10 @@
         </div></a>
     </div>
 
-    <?php
-        include "./View/footer.php"
-    ?>
+<?php
+    include "./View/footer.php";
+?>
 </body>
 </html> 
+
+
