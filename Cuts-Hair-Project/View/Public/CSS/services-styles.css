@@ -18,6 +18,19 @@
 
 }
 
+.service-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 75%;
+    margin:20px;
+    text-align: center;
+}
+
+
 .message{
     border-top: solid gray 3px;
     grid-row: 1;
@@ -33,6 +46,31 @@
     background-color: white;
 }
 
+.service-card{
+    margin:15px;
+    grid-template-rows: 1fr 15%;
+    margin:30px;
+    border: solid gray 3px;
+}
+
+.frame{
+    /* height: 340px; */
+    /* width: 325px; */
+    height: 500px;
+    width: auto;
+    background-size: cover;
+    /* border: solid red 5px; */
+}
+
+.service-card > div{
+    grid-row: 1;
+}
+
+.service-card > p{
+    font-size: 50px;
+    /* border:solid green 5px; */
+    margin: 0px ;
+}
 
 
 
