@@ -1,0 +1,49 @@
+.form-contact{
+    color:white;
+}
+.form-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 20%;
+    grid-template-rows: 1fr;
+    margin-top: 20px;
+}
+.form-left{
+    grid-column: 1;
+}
+.form-center{
+    grid-column: 2;
+}
+.form-right{
+    grid-column: 3;
+}
+.form-left,
+.form-center{
+/* forget what i was doing with this  */
+}
+.form-right h1{
+    color: white;
+    text-align: center;
+    border-bottom: solid gray 3px;
+}
+.form-right h2{
+    color: white;
+    text-align: right;
+    margin-right: 30px;
+}
+.form-boxs {
+    width:85%;
+    padding:15px;
+    margin:10px;
+    background-color: #242424;
+    color: white;
+    border-color: #242424;
+}
+
+.form-button{
+    width:39.5%;
+    padding:15px;
+    margin:10px;
+    background-color: #242424;
+    color: white;
+    align-self: center;
+}

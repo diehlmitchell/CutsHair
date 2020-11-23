@@ -15,12 +15,20 @@
 
 
 <!-- Form code -->
-
+    <?php
+        include "./Controller/appointments-form.php";
+    ?>
 <!-- Form code -->
 
 <?php
     include "./View/footer.php";
 ?>
+
+<!--
+note to me for tuesday: don't forget to call your bank silly :)
+also your goal is to add database functionality first and foremost because you will not be able to do those things later on,
+and do things such as cookie clicker at home because you can do them without connecting to the server 
+-->
 
 </body>
 </html> 
