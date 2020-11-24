@@ -50,11 +50,9 @@
         <form action="" class="form-container">
             <h1>Login</h1>
 
-            <label for="email"><b>Who are you?</b></label>
-            <select>
-                <option>Mr Poopy Stinky</option>
-                <option>Mr Stinky Poopy</option>
-            </select>
+            <label for="customer"><b>Who are you?</b></label>
+            <input type="text" id="customer" name="customer">
+
 
             <button type="submit" class="btnLogin">Login</button>
             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
