@@ -25,12 +25,12 @@ table {
 
 <table>
   <tr>
-    <th>Appointment Number</th>
+    <th>AppNumber</th>
     <th>FirstName</th>
     <th>LastName</th>
     <th>Service</th>
     <th>Employee</th>
-    <th>Time</th>          c
+    <th>Time</th>
   </tr>
   <?php
     while($row = $appGet->fetch(PDO::FETCH_ASSOC))
@@ -38,10 +38,10 @@ table {
       echo"
         <tr>
           <td>{$row['CallID']}</td>
-          <td>{$row['`people.customers`.FirstName']}</td>
-          <td>{$row['`people.customers`.LastName']}</td>
-          <td>{$row['`productsandservices.services`.ServiceName']}</td>
-          <td>{$row['`people.employees`.FirstName']}</td>
+          <td>{$row['pcf']}</td>
+          <td>{$row['pcl']}</td>
+          <td>{$row['ServiceName']}</td>
+          <td>{$row['pef']}</td>
           <td>{$row['Time']}</td>
         </tr>
       ";

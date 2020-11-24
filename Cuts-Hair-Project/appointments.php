@@ -13,7 +13,7 @@
 ?>
 
 <div class="mission-statement-grid"><!-- Mission statement -->
-    <h1 style="font-size: 45px;">Make an appointment up to a week in advance</h1>
+    <h1 style="font-size: 45px;">Make an appointment!</h1>
 </div>
 
 <!-- Table for middle page -->
