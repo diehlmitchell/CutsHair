@@ -30,17 +30,14 @@
 
     <div class="form-center">
         <!-- contains day and time as well as submit button -->
-        <input type="time" id="appt" name="appt" min="09:00" max="18:00" required class="form-boxs">
+        <input type="time" id="AppTime" name="AppTime" min="09:00" max="18:00" required class="form-boxs">
         <br>
-        <select name="employee" id="employee" required class="form-boxs">
-            <option value="" disabled selected>Select Next Work Day</option>
-            <option value="Monday">Monday</option>
-            <option value="Tuesday">Tuesday</option>
-            <option value="Wednesday">Wednesday</option>
-            <option value="Thursday">Thursday</option>
-            <option value="Friday">Friday</option>
-            <option value="Saturday">Saturday</option>
-        </select>
+        <!-- the blow line has a php tag inside the min, its goal is to set the min to today (it do be working as of 9:30 tuesday)  -->
+        <input type="date" id="AppDate" name="AppDate" min=
+            <?php
+                echo date('Y-m-d');
+            ?>
+        required class="form-boxs">
         <br>
         <input type="submit" value="Submit" class="form-button">
         <button class="form-button" >Reset</button>
@@ -48,11 +45,11 @@
     </form>
 
     <div class="form-right">
-    <h1 style="border-right: solid gray;">Cost Of service</h1><br>
+    <h1 style="border-bottom: solid gray;">Cost Of Service</h1><br>
 
     <h2>Service Cost: $0</h2><br>
     <h2>Tip: $0</h2><br>
-    <h2>Total: $0</h2>
+    <h2 style="margin-bottom: 25px;">Total: $0</h2>
 
     </div>
 </div>
