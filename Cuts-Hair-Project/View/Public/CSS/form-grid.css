@@ -1,3 +1,21 @@
+
+::selection {
+  background: darkgray; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: darkgray; /* Gecko Browsers */
+}
+
+/* select option {
+  background: #f00 !important; 
+  color: #fff; 
+  box-shadow: inset 20px 20px #f00!important;
+}  */
+
+/* select.decorated option:hover {
+  box-shadow: 0 0 10px 100px #29a818 inset;
+} */
+
 .form-contact{
     color:white;
 }
@@ -38,7 +56,6 @@
     color: white;
     border-color: #242424;
 }
-
 .form-button{
     width:39.5%;
     padding:15px;

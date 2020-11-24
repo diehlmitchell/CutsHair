@@ -1,10 +1,8 @@
 <link rel="stylesheet" href = "./View/Public/CSS/form-grid.css">
 <div class="form-div">
     <div class="form-left">
-        <form action="" method="POST">
-        
             <!-- tip and service selection -->
-            <input name="tip" id="tip" type="number" placeholder="Make a tip!" class="form-boxs" min=0> <!-- min of 0 becuase we dont wanna pay nobody to use our business  -->
+            <!-- <input name="tip" id="tip" type="number" placeholder="Make a tip!" class="form-boxs" min=0> min of 0 becuase we dont wanna pay nobody to use our business  -->
                 <select name="service" id="service" required class="form-boxs">
                     <option value="" disabled selected>Select Service</option>
                     <option value="Men's Haircut">Men's Haircut</option>
@@ -42,21 +40,29 @@
             ?>
         required class="form-boxs">
         <br>
-        <input type="submit" value="Submit" class="form-button">
-        <button class="open-button" class ="form-button" onclick="openForm()">Login</button>
+        <button class ="form-button">Reset</button>
+<!-- The above button should just reset the fields -->
+        <button class="open-button" class ="form-button" onclick="openForm()">Make an Appointment</button>
+        
 
         <!-- "Login" popup form -->
         <div class="form-popup" id="myForm">
-        <form action="" class="form-container">
-            <h1>Login</h1>
+
+            <h1>Customer name</h1>
 
             <label for="customer"><b>Who are you?</b></label>
             <input type="text" id="customer" name="customer">
 
-
-            <button type="submit" class="btnLogin">Login</button>
+            <button type="submit" class="btnLogin" onclick="
+            newAppointment
+            (
+                document.getElementById('service').value, // ids are the id of form inputs
+                document.getElementById('employee').value,
+                document.getElementById('AppTime').value,
+                document.getElementById('AppDate').value,
+                document.getElementById('customer').value
+            )">Login</button>
             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-        </form>
         </div>
 
 
@@ -74,13 +80,16 @@
 </div>
 
 <script>
-function openForm() {
+function openForm() 
+{
   document.getElementById("myForm").style.display = "block";
 }
 
-function closeForm() {
+function closeForm() 
+{
   document.getElementById("myForm").style.display = "none";
 }
+
 </script>
 
 

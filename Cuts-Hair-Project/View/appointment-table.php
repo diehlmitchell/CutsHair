@@ -25,7 +25,7 @@ table {
 
 <table>
   <tr>
-    <th>AppNumber</th>
+    <th>Appointment</th>
     <th>FirstName</th>
     <th>LastName</th>
     <th>Service</th>
@@ -48,9 +48,11 @@ table {
     }
 
   ?>
+
 <!-- 
     probably some complex pull from the database
     -- end goal would def be to display names instead of id values, so you would probably need to select from a view or something like that maybe? 
     -- that or join 
 -->
+
 </table>
