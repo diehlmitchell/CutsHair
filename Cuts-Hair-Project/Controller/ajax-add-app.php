@@ -9,14 +9,15 @@
     $ServiceID = trim(htmlentities($sanatizedPOST['ServiceID']));
     $EmployeeID = trim(htmlentities($sanatizedPOST['EmployeeID']));
     $Time = trim(htmlentities($sanatizedPOST['Time'])); //MAYBE NEED TO ADD THOSE TOGETHER OR SOMETING I DONT KNOW, ID:10T    
-   
+    $Date = trim(htmlentities($sanatizedPOST['Date']));
+    $TimeDate = $Time + $Date;
     $appointmentData = 
     [
         "AppointmentID" => $ID,
         "CustomerID" => $CustomerID,
         "ServiceID" => $ServiceID,
         "EmployeeID" => $EmployeeID,
-        "Time"=> $Date+$Time
+        "DateTime"=> $TimeDate
     ];
     $database = new Database();
     $db = $database->connect();
@@ -26,6 +27,7 @@
 
     $app = new appointments($db);
     $appGet = $app->prodRead();
+   
 
-
+    // Here I want to update the table if I need to
 ?>

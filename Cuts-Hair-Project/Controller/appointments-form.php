@@ -52,10 +52,8 @@
 
             <label for="customer"><b>Who are you?</b></label>
             <input type="text" id="customer" name="customer">
-
-            <button type="submit" class="btnLogin" onclick="
-            newAppointment
-            (
+            <button type="submit" class="btnLogin" onclick=" //below stuffis whats on click
+            newAppointment(
                 document.getElementById('service').value, // ids are the id of form inputs
                 document.getElementById('employee').value,
                 document.getElementById('AppTime').value,
