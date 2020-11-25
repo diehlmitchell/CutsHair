@@ -7,7 +7,7 @@
     $database = new Database();
     $db = $database->connect();
     
-    $app = new appointments($db);
+    $app = new appointment($db);
     $appGet = $app->prodRead();
 
 ?>

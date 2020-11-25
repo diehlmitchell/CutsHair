@@ -1,12 +1,14 @@
 <script>
     function newAppointment(customer, service, employee, AppTime, AppDate)
     {
+        DateTime = AppDate+AppTime;
+        //probably needs fixed to make it a datetime as it likely doesnt add how I want it to                                               
         //ajax function 
         $.ajax
         ({
             type: "POST",
             url:"./Controller/ajax-add-app.php",
-            data: "customer=" + customer + "&service=" + service + "&employee=" + employee + "&AppTime=" + AppTime + "&AppDate=" + AppDate,
+            data: "CustomerID=" + customer + "&ServiceID=" + service + "&EmployeeID=" + employee + "&DateTime=" + DateTime,
             success: function(data)
             {
                 $("#appointments-table").html(data);

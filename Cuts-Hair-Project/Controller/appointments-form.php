@@ -5,26 +5,26 @@
             <!-- <input name="tip" id="tip" type="number" placeholder="Make a tip!" class="form-boxs" min=0> min of 0 becuase we dont wanna pay nobody to use our business  -->
                 <select name="service" id="service" required class="form-boxs">
                     <option value="" disabled selected>Select Service</option>
-                    <option value="Men's Haircut">Men's Haircut</option>
-                    <option value="Women's Haircut">Women's Haircut</option>
-                    <option value="Child Haircut">Child Haircut</option>
-                    <option value="Hair Color">Hair Color</option>
-                    <option value="Hair Wash and dry">Hair Wash and dry</option>
-                    <option value="Hair Styling">Hair Styling</option>
-                    <option value="Perms">Perms</option>
-                    <option value="Facial Hair">Facial Hair</option>
+                    <option value="9">Men's Haircut</option>
+                    <option value="10">Women's Haircut</option>
+                    <option value="11">Child Haircut</option>
+                    <option value="12">Hair Color</option>
+                    <option value="13">Hair Wash and dry</option>
+                    <option value="14">Hair Styling</option>
+                    <option value="15">Perms</option>
+                    <option value="16">Facial Hair</option>
                 </select>
             <!-- name and service selection -->
             <br>
             <!-- employees -->
                 <select name="employee" id="employee" required class="form-boxs">
                     <option value="" disabled selected>Select Employee</option>
-                    <option value="Joy Aveda">Joy Aveda</option>
-                    <option value="Alanah Dickson">Alanah Dickson</option>
-                    <option value="Salim Rahman">Salim Rahman</option>
-                    <option value="Shannen Bassett">Shannen Bassett</option>
-                    <option value="Hakim Goulding">Hakim Goulding</option>
-                    <option value="Kush Silva">Kush Silva</option>
+                    <option value="1">Joy Aveda</option>
+                    <option value="2">Alanah Dickson</option>
+                    <option value="3">Salim Rahman</option>
+                    <option value="4">Shannen Bassett</option>
+                    <option value="5">Hakim Goulding</option>
+                    <option value="6">Kush Silva</option>
                 </select>
             <!-- employees -->
     </div>
@@ -50,15 +50,17 @@
 
             <h1>Customer name</h1>
 
-            <label for="customer"><b>Who are you?</b></label>
-            <input type="text" id="customer" name="customer">
+            <label for="customer"><b>FirstName</b></label>
+            <input type="text" id="customer" name="customer" value="1">
+            <!-- have to make a check to find if this firstname matches 1 in the database, and match it with a customerID -->
             <button type="submit" class="btnLogin" onclick=" //below stuffis whats on click
             newAppointment(
+                document.getElementById('customer').value
                 document.getElementById('service').value, // ids are the id of form inputs
                 document.getElementById('employee').value,
                 document.getElementById('AppTime').value,
                 document.getElementById('AppDate').value,
-                document.getElementById('customer').value
+
             )">Login</button>
             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
         </div>
