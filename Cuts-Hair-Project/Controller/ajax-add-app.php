@@ -12,8 +12,7 @@
     // $Date = trim(htmlentities($sanatizedPOST['Date']));
     $DateTime = trim(htmlentities($sanatizedPOST['DateTime']));
     $appointmentData = 
-    [
-      
+    [      
         // "CallID" => $CallID,
         "CustomerID" => $CustomerID,
         "ServiceID" => $ServiceID,
@@ -24,8 +23,9 @@
     $db = $database->connect();
 
     $app = new appointment($db);
-
     $app->addApointments($appointmentData);
+
+    //no matter what
     $appGet = $app->prodRead();
    
 

@@ -51,7 +51,7 @@
             <h1>Customer name</h1>
 
             <label for="customer"><b>FirstName</b></label>
-            <input type="text" id="customer" name="customer" value="1">
+            <input type="text" id="customer" name="customer" placeholder="1">
             <!-- have to make a check to find if this firstname matches 1 in the database, and match it with a customerID -->
             <button type="submit" class="btnLogin" onclick=" //below stuffis whats on click
             newAppointment(document.getElementById('customer').value,document.getElementById('service').value,document.getElementById('employee').value,document.getElementById('AppTime').value,document.getElementById('AppDate').value)">Login</button>

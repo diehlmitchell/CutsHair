@@ -11,7 +11,6 @@
     
     $app = new appointment($db);
     $appGet = $app->prodRead();
-
 ?>
 
 <div class="mission-statement-grid"><!-- Mission statement -->
