@@ -40,48 +40,27 @@
             ?>
         required class="form-boxs">
         <br>
-        <button class ="form-button">Reset</button>
-<!-- The above button should just reset the fields -->
-        <button class="open-button" class ="form-button" onclick="openForm()">Make an Appointment</button>
+        <!-- <button class ="form-button">Reset</button>
+        The above button should just reset the fields 
+        <button class="open-button" class ="form-button">Make an Appointment</button> -->
         
 
         <!-- "Login" popup form -->
-        <div class="form-popup" id="myForm">
-
-            <h1>Customer name</h1>
-
-            <label for="customer"><b>FirstName</b></label>
-            <input type="text" id="customer" name="customer" value="1">
-            <!-- have to make a check to find if this firstname matches 1 in the database, and match it with a customerID -->
-            <button type="submit" class="btnLogin" onclick=" //below stuffis whats on click
-            newAppointment(document.getElementById('customer').value,document.getElementById('service').value,document.getElementById('employee').value,document.getElementById('AppTime').value,document.getElementById('AppDate').value)">Login</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-        </div>
-
-
     </div>
 
     <div class="form-right">
-    <h1 style="border-bottom: solid gray;">Cost Of Service</h1><br>
+    <!-- <h1 style="border-bottom: solid gray;">Cost Of Service</h1><br>
+    <h2>Service Cost: $0</h2><br> I dont see this as useful anymore becuase the database is not setup to include tips etc.-->
+        <div class="form-boxs" style="height=80%">
+            <h1>Customer ID</h1>
 
-    <h2>Service Cost: $0</h2><br>
-    <h2>Tip: $0</h2><br>
-    <h2 style="margin-bottom: 25px;">Total: $0</h2>
-
+            <label for="customer"><b>Enter ID:</b></label>
+            <input type="number" id="customer" name="customer" placeholder="1" required>
+            <!-- have to make a check to find if this firstname matches 1 in the database, and match it with a customerID -->
+            <button type="submit" class="btnLogin" onclick=" //below stuffis whats on click
+            newAppointment(document.getElementById('customer').value,document.getElementById('service').value,document.getElementById('employee').value,document.getElementById('AppTime').value,document.getElementById('AppDate').value)">Login</button>
+    </div>
     </div>
 </div>
-
-<script>
-function openForm() 
-{
-  document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() 
-{
-  document.getElementById("myForm").style.display = "none";
-}
-
-</script>
 
 
