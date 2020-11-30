@@ -1,5 +1,3 @@
-
-
 <style>
 table {
     font-family: arial, sans-serif;
@@ -52,7 +50,8 @@ table {
       probably some complex pull from the database
       -- end goal would def be to display names instead of id values, so you would probably need to select from a view or something like that maybe? 
       -- that or join 
-  -->
+      <!--^^^^ already did it mornan ^^^ -->
+  
 
   </table>
 

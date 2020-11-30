@@ -1,10 +1,10 @@
 <?php
     include './db_conn.php';
-    include "./View/appointment-table.php";
+    include '../Model/query-appointments.php';
     //get data
 
     $sanatizedPOST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
-    // $AppointmentID = trim(htmlentities($sanatizedPOST['AppointmentID']));
+    // $CallID = trim(htmlentities($sanatizedPOST['CallID']));
     $CustomerID = trim(htmlentities($sanatizedPOST['CustomerID']));
     $ServiceID = trim(htmlentities($sanatizedPOST['ServiceID']));
     $EmployeeID = trim(htmlentities($sanatizedPOST['EmployeeID']));
@@ -13,7 +13,8 @@
     $DateTime = trim(htmlentities($sanatizedPOST['DateTime']));
     $appointmentData = 
     [
-        // "AppointmentID" => $ID,
+      
+        // "CallID" => $CallID,
         "CustomerID" => $CustomerID,
         "ServiceID" => $ServiceID,
         "EmployeeID" => $EmployeeID,
@@ -28,7 +29,7 @@
     $appGet = $app->prodRead();
    
 
-    // Here I want to update the table
+    // below I want to update the table
     ?>
     <table>
     <tr>
@@ -56,5 +57,5 @@
       }
   ?>
   </table>
-   <!-- Here I want to update the table -->
+   <!-- above I want to update the table -->
  

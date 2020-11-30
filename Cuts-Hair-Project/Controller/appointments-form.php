@@ -54,20 +54,12 @@
             <input type="text" id="customer" name="customer" value="1">
             <!-- have to make a check to find if this firstname matches 1 in the database, and match it with a customerID -->
             <button type="submit" class="btnLogin" onclick=" //below stuffis whats on click
-            newAppointment(
-                document.getElementById('customer').value
-                document.getElementById('service').value, // ids are the id of form inputs
-                document.getElementById('employee').value,
-                document.getElementById('AppTime').value,
-                document.getElementById('AppDate').value,
-
-            )">Login</button>
+            newAppointment(document.getElementById('customer').value,document.getElementById('service').value,document.getElementById('employee').value,document.getElementById('AppTime').value,document.getElementById('AppDate').value)">Login</button>
             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
         </div>
 
 
     </div>
-    </form>
 
     <div class="form-right">
     <h1 style="border-bottom: solid gray;">Cost Of Service</h1><br>

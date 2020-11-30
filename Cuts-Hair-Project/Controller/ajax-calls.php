@@ -1,3 +1,4 @@
+
 <script>
     function newAppointment(customer, service, employee, AppTime, AppDate)
     {
@@ -8,7 +9,7 @@
         ({
             type: "POST",
             url:"./Controller/ajax-add-app.php",
-            data: "CustomerID=" + customer + "&ServiceID=" + service + "&EmployeeID=" + employee + "&DateTime=" + DateTime,
+            data:"CustomerID=" + customer + "&ServiceID=" + service + "&EmployeeID=" + employee + "&DateTime=" + DateTime,
             success: function(data)
             {
                 $("#appointments-table").html(data);

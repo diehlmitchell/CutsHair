@@ -1,8 +1,10 @@
 <?php
     include "./View/appointments-header.php";
     include "./View/appointments-navbar.php";
-    include "./Controller/db_conn.php";
-    include "./Model/query-appointments.php";
+    include './Controller/db_conn.php';
+    // include './Controller/ajax-add-app.php';
+    include './Model/query-appointments.php';
+    include './Controller/ajax-calls.php';
     
     $database = new Database();
     $db = $database->connect();
