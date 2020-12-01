@@ -2,7 +2,7 @@
 <script>
     function newAppointment(customer, service, employee, AppTime, AppDate)
     {
-        DateTime = AppDate+AppTime;
+        DateTime = AppDate+" "+AppTime;
         //probably needs fixed to make it a datetime as it likely doesnt add how I want it to                                               
         //ajax function 
         $.ajax
