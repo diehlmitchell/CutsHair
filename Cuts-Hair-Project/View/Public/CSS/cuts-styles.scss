@@ -78,6 +78,7 @@ height: 80px;
 margin:auto;
 }
 
+
 .mission-statement-grid{
  margin-top: 3%;
  display: grid;
@@ -159,10 +160,10 @@ margin-top: 70px;
 }
 
 .footer-right{
-display: grid;
-grid-row: 1;
-grid-column: 3;
-grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    grid-template-columns: 1fr 1fr;
 }
 
 .footer-sm{
@@ -193,3 +194,109 @@ grid-template-columns: 1fr 1fr;
   ::-moz-selection {
     background: darkgray; /* Gecko Browsers */
   }
+@media only screen and (max-width: 1800px)
+{
+    .navbar-grid{
+        grid-template-columns: 5% 15% 5% 1fr;
+    }
+    .footer-right{
+        grid-template-columns: 20% 1fr;
+        
+    }
+    .footer-right p{
+        color: transparent;
+    }
+    .btn{
+        align-items:center;
+    }
+}
+@media only screen and (max-width: 1600px)
+{
+    #applepie{
+        margin-left: 0px;
+    }
+
+}
+#applepie{
+    width: 100px;
+    height:40px;
+    margin-top: 30px;
+    // margin-left: 220px;
+}
+
+@media only screen and (max-width: 1800px)
+{
+    #labelId{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 1500px)
+{
+    #CustomerIdText{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1540px)
+{
+    .service-card p{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1400px)
+{    
+
+    .navbar-grid h1{
+        display: none;
+    }
+    .navbar-grid{
+        grid-template-rows: 1fr;
+        grid-template-columns: 10% 1fr;
+    }
+    .navbar-right{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    #navimg{
+        grid-row: 1;
+    }
+    #literallyNothing,#literally-nothing{
+        display: none;
+    }
+    #customer{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px)
+{    
+    .navbar-grid img{
+        display: none;
+    }   
+    .navbar-grid{
+        grid-template-columns: 1fr;
+    }
+    .navbar-right{
+        grid-column: 1;
+    }
+}
+#navbarText{
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 1100px)
+{  
+    #navbarText{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 775px)
+{  
+    #service{
+        display: none;
+    }
+}

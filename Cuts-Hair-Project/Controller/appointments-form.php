@@ -52,9 +52,9 @@
     <!-- <h1 style="border-bottom: solid gray;">Cost Of Service</h1><br>
     <h2>Service Cost: $0</h2><br> I dont see this as useful anymore becuase the database is not setup to include tips etc.-->
         <div class="form-boxs" style="height=80%">
-            <h1>Customer ID</h1>
+            <h1 id="CustomerIdText">Customer ID</h1>
 
-            <label for="customer"><b>Enter ID:</b></label>
+            <label for="customer" id="labelId"><b>Enter ID:</b></label>
             <input type="number" id="customer" name="customer" placeholder="1" required>
             <!-- have to make a check to find if this firstname matches 1 in the database, and match it with a customerID -->
             <button type="submit" class="btnLogin" onclick=" //below stuffis whats on click

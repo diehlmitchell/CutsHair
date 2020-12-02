@@ -211,4 +211,126 @@ body {
   margin-bottom: 30px;
   margin-left: 90px;
 }
+
+::-moz-selection {
+  background: darkgray;
+  /* WebKit/Blink Browsers */
+}
+
+::selection {
+  background: darkgray;
+  /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: darkgray;
+  /* Gecko Browsers */
+}
+
+@media only screen and (max-width: 1800px) {
+  .navbar-grid {
+    -ms-grid-columns: 5% 15% 5% 1fr;
+        grid-template-columns: 5% 15% 5% 1fr;
+  }
+  .footer-right {
+    -ms-grid-columns: 20% 1fr;
+        grid-template-columns: 20% 1fr;
+  }
+  .footer-right p {
+    color: transparent;
+  }
+  .btn {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  #applepie {
+    margin-left: 0px;
+  }
+}
+
+#applepie {
+  width: 100px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 1800px) {
+  #labelId {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  #CustomerIdText {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1540px) {
+  .service-card p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .navbar-grid h1 {
+    display: none;
+  }
+  .navbar-grid {
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    -ms-grid-columns: 10% 1fr;
+        grid-template-columns: 10% 1fr;
+  }
+  .navbar-right {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  #navimg {
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  #literallyNothing, #literally-nothing {
+    display: none;
+  }
+  #customer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar-grid img {
+    display: none;
+  }
+  .navbar-grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .navbar-right {
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+}
+
+#navbarText {
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 1100px) {
+  #navbarText {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  #service {
+    display: none;
+  }
+}
 /*# sourceMappingURL=cuts-styles.css.map */

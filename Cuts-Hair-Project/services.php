@@ -12,7 +12,7 @@
 
     <div class="middle-page"><!-- Book a service message -->
         <div class="message">
-            <h1>Book a Service</h1>
+            <h1 id="service">Book a Service</h1>
         </div>
 
         <div class="services-section"><!-- Services Section -->

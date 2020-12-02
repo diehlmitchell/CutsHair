@@ -4,7 +4,7 @@
         </div>
             <p></p>
             <div class="footer-right">
-                <button style="width: 100px; height:40px; margin-top: 30px; margin-left: 220px;" class="btn btn-warning">Directions</button>
+                <button class="btn btn-warning" id="applepie">Directions</button>
                 <div style="margin-top: 30px;" class="footer-sm">
                     <p style="font-size: 30px;">Contact Us:</p>
                     <div>

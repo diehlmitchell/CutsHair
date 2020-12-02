@@ -4,10 +4,10 @@
     <p> </p>
     
         <div class="navbar-right"><!-- Right on the nav bar -->
-            <a style="font-size: 50px; border-right: solid gray;" href="./index.php">Home</a>
-            <a style="font-size: 50px; border-right: solid gray;" href="./services.php">Services</a>
-            <p style="font-size: 50px;">Employees</p>
-            <a style="font-size: 50px; border-left: solid gray;" href="./index.php">Appointments</a>
+            <a id="navbarText"style="border-right: solid gray;" href="./index.php">Home</a>
+            <p id="navbarText"style="border-right: solid gray;" href="./services.php">Services</a>
+            <a id="navbarText" >Employees</p>
+            <a id="navbarText"style="border-left: solid gray;" href="./index.php">Appointments</a>
         </div>
     </div>
 
