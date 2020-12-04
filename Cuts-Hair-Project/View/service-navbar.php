@@ -4,9 +4,9 @@
     <p id="literally-nothing"> </p>
     
         <div class="navbar-right"><!-- Right on the nav bar -->
-            <a style="font-size: 50px; border-right: solid gray;" href="./index.php">Home</a>
-            <p style="font-size: 50px;">Services</p>
-            <a style="border-right: solid gray; border-left: solid gray;" href="./employees.php">Employees</a>
-            <a href="./index.php">Appointments</a>
+            <a id="navbarText" style="border-right: solid gray;" href="./index.php">Home</a>
+            <p id="navbarText" >Services</p>
+            <a id="navbarText" style="border-right: solid gray; border-left: solid gray;" href="./employees.php">Employees</a>
+            <a id="navbarText" href="./index.php">Appointments</a>
         </div>
     </div>

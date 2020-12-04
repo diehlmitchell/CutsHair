@@ -17,6 +17,7 @@
 
     <div style="margin: 0px;" class="navigation"><!-- Navigation section -->
         <center>
+            <!-- eww this is gross why was it typed this way  -->
         <a href="services.php"><div class="nav-left">
             <img src="./View/Public/Images/Cuts-Hair-Images/services.jpg" alt="services">
             <p> Services </p>

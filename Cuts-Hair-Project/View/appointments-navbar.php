@@ -4,10 +4,10 @@
     <p id="literally-nothing"> </p>
     
         <div class="navbar-right"><!-- Right on the nav bar -->
-            <a style="font-size: 50px; border-right: solid gray;" href="./index.php">Home</a>
-            <a style="font-size: 50px; border-right: solid gray;" href="./services.php">Services</a>
-            <a style="font-size: 50px; border-right: solid gray;" href="./employees.php">Employees</a>
-            <p style="font-size: 50px;">Appointments</p>
+            <a id="navbarText" style="border-right: solid gray;" href="./index.php">Home</a>
+            <a id="navbarText" style="border-right: solid gray;" href="./services.php">Services</a>
+            <a id="navbarText" style="border-right: solid gray;" href="./employees.php">Employees</a>
+            <p id="navbarText">Appointments</p>
 
         </div>
     </div>

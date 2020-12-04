@@ -7,7 +7,7 @@
                 <button class="btn btn-warning" id="applepie">Directions</button>
                 <div style="margin-top: 30px;" class="footer-sm">
                     <p style="font-size: 30px;">Contact Us:</p>
-                    <div>
+                    <div class="sm-icons">
                         <img  style="height: 30px;" src="./View/Public/Images/Cuts-Hair-Images/phone.png">
                         <img style="margin-bottom: 5px; height: 40px;" src="./View/Public/Images/Cuts-Hair-Images/social-media-thumbnails.png">
                     </div>
