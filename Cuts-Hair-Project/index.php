@@ -11,8 +11,8 @@
     <!--Navigation Bar-->
     
     <div class="mission-statement-grid"><!-- Mission statement -->
-    <h1 style="font-size: 90px;">Haircuts and services<br> at a reasonable price
-        with innovate customer service</h1>
+    <h1>Haircuts and services<br> at a reasonable price <br>
+        with great customer service</h1>
     </div>
 
     <div style="margin: 0px;" class="navigation"><!-- Navigation section -->
