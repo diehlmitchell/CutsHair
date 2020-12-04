@@ -5,9 +5,9 @@
     
         <div class="navbar-right"><!-- Right on the nav bar -->
             <a id="navbarText"style="border-right: solid gray;" href="./index.php">Home</a>
-            <p id="navbarText"style="border-right: solid gray;" href="./services.php">Services</a>
-            <a id="navbarText" >Employees</p>
-            <a id="navbarText"style="border-left: solid gray;" href="./index.php">Appointments</a>
+            <a id="navbarText"style="border-right: solid gray;" href="./services.php">Services</a>
+            <p id="navbarText" >Employees</p>
+            <a id="navbarText"style="border-left: solid gray;" href="./appointments.php">Appointments</a>
         </div>
     </div>
 

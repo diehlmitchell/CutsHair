@@ -47,9 +47,9 @@
 }
 
 .service-card{
-    margin:15px;
+    /* margin:15px; */
     grid-template-rows: 1fr 15%;
-    margin:30px;
+    /* margin:30px; */
     border: solid gray 3px;
 }
 
@@ -60,7 +60,56 @@
     width: auto;
     background-size: cover;
     /* border: solid red 5px; */
+}   
+@media only screen and (max-width: 1000px)
+{
+    .frame{
+        width: 200px;
+        height: 200px;
+    }
+    .service-card{
+        width: 200px;
+        height: 200px;
+    }
 }
+@media only screen and (max-width: 700px)
+{
+    .frame{
+        width:  125px;
+        height: 125px;
+    }
+    .service-card{
+        width:  125px;
+        height: 125px;
+    }
+}
+@media only screen and (max-width: 475px)
+{
+    .frame{
+        width:  90px;
+        height: 90px;
+    }
+    .service-card{
+        width:  90px;
+        height: 90px;
+    }
+}
+@media only screen and (max-width: 340px)
+{
+    .frame{
+        width: 50px;
+        height: 50px;
+    }
+    .frame img{
+        width: 50px;
+        height: 50px;
+    } 
+    .service-card{
+        width: 50px;
+        height: 50px;
+    }
+}
+
 
 .service-card > div{
     grid-row: 1;
